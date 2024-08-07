@@ -1,0 +1,36 @@
+*{
+    
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding: unset;
+    margin: unset;
+
+    box-sizing: border-box;
+}
+
+/* FlexBox */
+
+header nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px 60px;
+}
+
+header nav ul {
+
+display: flex;align-items: center; 
+list-style: none; 
+gap: 32px;  
+
+}
+
+.jumbotron {
+
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    
+}
