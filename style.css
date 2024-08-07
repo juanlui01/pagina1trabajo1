@@ -8,6 +8,8 @@
     margin: unset;
 
     box-sizing: border-box;
+
+    /* border: solid 1px red; */
 }
 
 /* FlexBox */
@@ -16,7 +18,7 @@ header nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 12px 60px;
+padding: 12px 64px;
 }
 
 header nav ul {
@@ -31,6 +33,59 @@ gap: 32px;
 
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: center;
     
+
+    
+}
+
+.jumbotron h1 {
+font-size: 64px;
+
+
+}
+
+
+
+.Tarjetas {
+
+display: flex;
+flex-direction: column;
+padding: 12px 120px;
+
+}
+
+.Tarjetas__heading {
+display: flex;
+
+
+}
+.Tamaño__tipografia h4 {
+    font-size: 24px;
+}
+
+
+.Tipos {
+
+display: flex;
+flex-direction: column;
+}
+
+.Boton__precio{
+display: flex;
+justify-content: space-between;
+}
+.Boton__precio p {
+font-size: 43px;
+color: B40101; 
+ 
+}
+.Separacion{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 60px;
+
+
 }
