@@ -2,7 +2,7 @@
     
     font-size: 1rem;
     font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Rubik, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     padding: unset;
     margin: unset;
@@ -34,7 +34,9 @@ gap: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(assets/background\ jumbo.jpg);
+    background-image: url("assets/Jumbotron\ \(1\).jpg");
+    background-size: 100%;
+    background-position: center;
     
 
     
@@ -97,3 +99,25 @@ color: B40101;
 
 
 }
+
+.informacion¨{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url("assets/Informacion.jpg");
+   background-size: 100%;
+   background-position: center;
+    
+
+}
+
+
+.informacion h1 {
+
+    font-size: 56px;
+}
+
+.informacion p {
+    font-size: 16px;
+}
+
