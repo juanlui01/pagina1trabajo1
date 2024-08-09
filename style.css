@@ -4,91 +4,149 @@
     font-weight: 400;
     font-family:Rubik, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    padding: unset;
-    margin: unset;
+    padding: 0;
+    /* margin: 0; */
 
     box-sizing: border-box;
 
     /* border: solid 1px red; */
 }
 
+body, html {
+min-height: 100%;
+
+
+
+}
+
 /* FlexBox */
 
+
 header nav{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 12px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 64px;
 }
 
 header nav ul {
-
-display: flex;align-items: center; 
-list-style: none; 
-gap: 32px;  
-
+    
+    display: flex;align-items: center; 
+    list-style: none; 
+    gap: 32px;  
+    
 }
 
 .jumbotron {
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background-image: url("assets/Jumbotron\ \(1\).jpg");
     background-size: 100%;
     background-position: center;
     
-
+    
     
 }
 
-.jumbotron h1 {
-font-size: 64px;
-color: white;
- 
+.jumbotron__padding {
+    
+    display: flex;
+    padding-right: 100px;
+}
 
+.jumbotron h1 {
+    display: flex;
+    font-size: 64px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-left: 100px;
+    
+    
 }
 
 
 
 .Tarjetas {
-
-display: flex;
-flex-direction: column;
-padding: 12px 120px;
-background-color: white;
-transform: translateY(-100px);
-transition: transform .3s ease-in-out;
-
+    
+    display: flex;
+    flex-direction: column;
+    padding: 12px 30px;
+    background-color: white;
+    transform: translateY(-100px);
+    transition: transform .3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: grey 3px 3px 3px;
 }
+
+
 .Tarjetas:hover {
-transform: translateY(-150px);
+    transform: translateY(-150px);
 }
+
+
 
 .Tarjetas__heading {
-display: flex;
-
-
+    display: flex;
+    
 }
+
+.Tarjetas__Estrella {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Tarjetas__Estrella p {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #3B5097;
+    padding: 15px;
+}
+
+
+
 .Tamaño__tipografia h4 {
     font-size: 24px;
+    font-weight: bold;
 }
 
 
 .Tipos {
-
-display: flex;
-flex-direction: column;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .Boton__precio{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 0%;
 }
 .Boton__precio p {
-font-size: 43px;
-color: B40101;
- 
+    font-size: 43px;
+    font-weight: bold;
+    color: #B40101;
+    
+}
+.button {
+    background-color: #1C3743;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: bold;
+}
+
+.button__add {
+
+display: flex;
+padding: 0% 0% 0% 0%;
 }
 .Separacion{
 
@@ -104,20 +162,57 @@ color: B40101;
    display: flex;
    align-items: center;
    justify-content: center;
-   background-image: url("assets/Informacion.jpg");
+   background-image: url("/assets/Informacion.jpg");
    background-size: 100%;
    background-position: center;
+   
     
 
 }
 
 
 .informacion h1 {
-
+    display: flex;
     font-size: 56px;
+    font-weight: bold;
+    
 }
 
 .informacion p {
+    display: flex;
     font-size: 16px;
+    
+}
+
+
+
+.footer {
+
+position: relative;
+height: 158px;
+display: flex;
+padding: 12px 64px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.footer__logo img {
+
+    display: flex;
+    height: 49.7px;
+    width: 51.99px;
+
+
+
+
+}
+
+.footer__texto {
+
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    
 }
 
