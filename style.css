@@ -4,12 +4,13 @@
     font-weight: 400;
     font-family:Rubik, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    padding: 0;
-    /* margin: 0; */
+    padding: unset;
+    margin: unset;
 
     box-sizing: border-box;
 
     /* border: solid 1px red; */
+
 }
 
 body, html {
@@ -80,7 +81,7 @@ header nav ul {
     transform: translateY(-100px);
     transition: transform .3s ease-in-out;
     border-radius: 10px;
-    box-shadow: grey 3px 3px 3px;
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.089);
 }
 
 
@@ -114,6 +115,12 @@ header nav ul {
 .Tamaño__tipografia h4 {
     font-size: 24px;
     font-weight: bold;
+    padding: 10px;
+}
+
+.Tamaño__tipografia p {
+display: flex;
+
 }
 
 
@@ -141,6 +148,7 @@ header nav ul {
     border-radius: 10px;
     padding: 12px 30px;
     font-weight: bold;
+    
 }
 
 .button__add {
@@ -152,21 +160,22 @@ padding: 0% 0% 0% 0%;
 
     display: flex;
     justify-content: space-between;
-    padding: 60px;
+    align-items: center;
+    padding: 30px;
     gap: 60px;
 
 
 }
 
-.informacion¨{
-   display: flex;
+.informacion {
+   
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    background-image: url("/assets/Informacion.jpg");
-   background-size: 100%;
+   background-size: cover;
    background-position: center;
    
-    
+    padding: 150px 60px;
 
 }
 
@@ -175,12 +184,18 @@ padding: 0% 0% 0% 0%;
     display: flex;
     font-size: 56px;
     font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding-left: 50%;
     
 }
 
 .informacion p {
     display: flex;
     font-size: 16px;
+    color: white;
+    justify-content: right;
+    padding-left: 50%;
     
 }
 
